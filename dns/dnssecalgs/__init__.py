@@ -97,7 +97,7 @@ def register_algorithm_cls(
 
     *algorithm_cls*: A `GenericPrivateKey` class.
 
-    *name*, an optional ``dns.name.Name`` or ``str``, for for PRIVATEDNS algorithms.
+    *name*, an optional ``dns.name.Name`` or ``str``, for PRIVATEDNS algorithms.
 
     *oid*: an optional BER-encoded `bytes` for PRIVATEOID algorithms.
 
