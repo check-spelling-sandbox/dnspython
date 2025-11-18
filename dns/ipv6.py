@@ -44,7 +44,7 @@ def inet_ntoa(address: bytes) -> str:
     l = len(hex)
     while i < l:
         chunk = hex[i : i + 4].decode()
-        # strip leading zeros.  we do this with an re instead of
+        # strip leading zeros.  we do this with a re instead of
         # with lstrip() because lstrip() didn't support chars until
         # python 2.2.2
         m = _leading_zero.match(chunk)

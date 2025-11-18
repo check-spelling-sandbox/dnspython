@@ -300,7 +300,7 @@ class Node:
         is also considered neutral.
 
         A node which contains some rdataset which is not a CNAME, RRSIG(CNAME),
-        or a neutral type is a a ``NodeKind.REGULAR`` node.  Regular nodes are
+        or a neutral type is a ``NodeKind.REGULAR`` node.  Regular nodes are
         also commonly referred to as "other data".
         """
         for rdataset in self.rdatasets:
