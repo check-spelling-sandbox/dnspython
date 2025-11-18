@@ -48,7 +48,7 @@ def _matches_type_or_its_signature(rdtypes, rdtype, covers):
 class NodeKind(enum.Enum):
     """Rdatasets in nodes"""
 
-    REGULAR = 0  # a.k.a "other data"
+    REGULAR = 0  # a.k.a. "other data"
     NEUTRAL = 1
     CNAME = 2
 
