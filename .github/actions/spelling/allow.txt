@@ -1,0 +1,6 @@
+github
+https
+ssh
+TSig
+ubuntu
+workarounds
