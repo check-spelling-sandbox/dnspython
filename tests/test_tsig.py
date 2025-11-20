@@ -108,7 +108,7 @@ class TSIGTestCase(unittest.TestCase):
         # first, the query from the client
         tkey_message = dns.message.make_query(keyname, "tkey", "any")
 
-        # test existent/non-existent keys in the keyring
+        # test existent/nonexistent keys in the keyring
         adapted_keyring = dns.tsig.GSSTSigAdapter(keyring)
 
         fetched_key = adapted_keyring(tkey_message, gsskeyname)
