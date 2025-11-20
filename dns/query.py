@@ -1299,7 +1299,7 @@ def make_ssl_context(
     be specified when connecting and the server's certificate must authorize the
     hostname.  If ``False``, then hostname checking is disabled.
 
-    *aplns* is ``None`` or a list of TLS ALPN (Application Layer Protocol Negotiation)
+    *alpns* is ``None`` or a list of TLS ALPN (Application Layer Protocol Negotiation)
     strings to use in negotiation.  For DNS-over-TLS, the right value is `["dot"]`.
     """
     cafile, capath = dns._tls_util.convert_verify_to_cafile_and_capath(verify)
