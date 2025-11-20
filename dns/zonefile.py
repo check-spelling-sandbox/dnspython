@@ -682,7 +682,7 @@ def read_rrsets(
     input must not specify an owner name.  If ``None``, then any owner names
     are allowed and must be present in the input.
 
-    *ttl*, an ``int``, string, or None.  If not ``None``, the the TTL is
+    *ttl*, an ``int``, string, or None.  If not ``None``, the TTL is
     forced to be the specified value and the input must not specify a TTL.
     If ``None``, then a TTL may be specified in the input.  If it is not
     specified, then the *default_ttl* will be used.

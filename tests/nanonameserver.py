@@ -296,7 +296,7 @@ class Server(threading.Thread):
                 items = self.maybe_listify(self.handle(request))
         except Exception as e:
             # Exceptions from handle get a SERVFAIL response, and a print because
-            # they are usually bugs in the the test!
+            # they are usually bugs in the test!
             self.caught("handle", e)
             r = dns.message.make_response(q)
             r.set_rcode(dns.rcode.SERVFAIL)

@@ -666,7 +666,7 @@ class BTree(Generic[KT, ET]):
         """Insert the element into the BTree.
 
         If *in_order* is ``True``, then extra work will be done to make left siblings
-        full, which optimizes storage space when the the elements are inserted in-order
+        full, which optimizes storage space when the elements are inserted in-order
         or close to it.
 
         Returns the previously existing element at the element's key or ``None``.
