@@ -1046,7 +1046,7 @@ class BaseResolver:
         if len(nameservers) == 0:
             raise NoResolverConfiguration("no nameservers")
         # Assigning directly instead of appending means we invoke the
-        # setter logic, with additonal checking and enrichment.
+        # setter logic, with additional checking and enrichment.
         self.nameservers = nameservers
 
     def read_registry(self) -> None:  # pragma: no cover
