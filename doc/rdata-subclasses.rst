@@ -910,7 +910,7 @@ SVCB and HTTPS Parameter Classes
 
    .. attribute:: ids
 
-      A tuple of ``bytes`` values, the APLN ids.
+      A tuple of ``bytes`` values, the ALPN ids.
 
 .. autoclass:: dns.rdtypes.svcbbase.PortParam
    :members:
