@@ -344,7 +344,7 @@ class RdataTestCase(unittest.TestCase):
             "60 9 1.000 N 24 39 0.000 E 10.00m 20m 2000m 20m",
             "60 9 1 N 24 39 0.000 E 10.00m 20m 2000m 20m",
         )
-        # test variable length longtitude
+        # test variable length longitude
         self.equal_loc(
             "60 9 0.000 N 24 39 0.510 E 10.00m 20m 2000m 20m",
             "60 9 0.000 N 24 39 0.51 E 10.00m 20m 2000m 20m",
