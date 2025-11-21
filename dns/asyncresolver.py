@@ -245,7 +245,7 @@ class Resolver(dns.resolver.BaseResolver):
         the bootstrap nameserver will always be one of the addresses and uses it.
         A future revision to the code may offer fuller support.  The code verifies that
         the bootstrap nameserver is in the Subject Alternative Name field of the
-        TLS certficate.
+        TLS certificate.
         """
         try:
             expiration = time.time() + lifetime
