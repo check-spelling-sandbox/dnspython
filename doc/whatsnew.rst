@@ -298,7 +298,7 @@ This release has no new features, but fixes the following issues:
 * DNS-over-HTTPS is now supported for asynchronous queries and resolutions.
 
 * ``dns.zonefile.read_rrsets()`` has been added, which allows rrsets in zonefile
-  format, or a restrition of it, to be read.  This function is useful for
+  format, or a restriction of it, to be read.  This function is useful for
   applications that want to read DNS data in text format, but do not want to
   use a Zone.
 
