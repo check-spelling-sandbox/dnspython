@@ -138,7 +138,7 @@ TBD
 
 * The MutableMapping used to store content in a zone may now be
   specified by a factory when subclassing.  Factories may also be
-  provided for writable verisons and immutable versions.
+  provided for writable versions and immutable versions.
 
 * dns.name.Name now has predecessor() and successor() methods
   implementing RFC 4471.
