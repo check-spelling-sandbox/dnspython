@@ -29,7 +29,7 @@ import dns.rdataclass
 import dns.rdatatype
 import dns.tsig
 
-# Note we can't import dns.message for cicularity reasons
+# Note we can't import dns.message for circularity reasons
 
 QUESTION = 0
 ANSWER = 1
