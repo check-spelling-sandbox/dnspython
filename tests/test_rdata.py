@@ -610,7 +610,7 @@ class RdataTestCase(unittest.TestCase):
         with self.assertRaises(dns.rdata.RdatatypeExists):
             dns.rdata.register_type(None, dns.rdatatype.A, "ANYTHING")
 
-    def test_registration_of_known_but_unimplmented_type(self):
+    def test_registration_of_known_but_unimplemented_type(self):
         # Try to register an implementation at the MD codepoint
         dns.rdata.register_type(tests.md_module, dns.rdatatype.MD, "MD")
         rd = dns.rdata.from_text("in", "md", "foo.")
