@@ -74,7 +74,7 @@ class Inbound:
         *serial* is the base serial number for IXFRs, and is required in
         that case.
 
-        *is_udp*, a ``bool`` indidicates if UDP is being used for this
+        *is_udp*, a ``bool`` indicates if UDP is being used for this
         XFR.
         """
         self.txn_manager = txn_manager
