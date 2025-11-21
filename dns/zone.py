@@ -1281,7 +1281,7 @@ def from_text(
     describing where an error occurred; the default is ``'<string>'``.
 
     *allow_include*, a ``bool``.  If ``True``, the default, then ``$INCLUDE``
-    directives are permitted.  If ``False``, then encoutering a ``$INCLUDE``
+    directives are permitted.  If ``False``, then encountering a ``$INCLUDE``
     will raise a ``SyntaxError`` exception.
 
     *check_origin*, a ``bool``.  If ``True``, the default, then sanity
@@ -1355,7 +1355,7 @@ def from_file(
     describing where an error occurred; the default is ``'<string>'``.
 
     *allow_include*, a ``bool``.  If ``True``, the default, then ``$INCLUDE``
-    directives are permitted.  If ``False``, then encoutering a ``$INCLUDE``
+    directives are permitted.  If ``False``, then encountering a ``$INCLUDE``
     will raise a ``SyntaxError`` exception.
 
     *check_origin*, a ``bool``.  If ``True``, the default, then sanity
