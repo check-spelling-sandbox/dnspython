@@ -544,7 +544,7 @@ class Cursor(Generic[KT, ET]):
         before *key* if it exists, or before its least successor if it doesn't.  A
         subsequent next() will retrieve this value.  If *before* is ``False``, then
         the cursor is positioned just after *key* if it exists, or its greatest
-        precessessor if it doesn't.  A subsequent prev() will return this value.
+        predecessor if it doesn't.  A subsequent prev() will return this value.
         """
         self.current_node = self.btree.root
         assert self.current_node is not None
