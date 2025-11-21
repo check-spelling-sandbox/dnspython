@@ -1009,7 +1009,7 @@ class ResolverNameserverValidTypeTestCase(unittest.TestCase):
         resolver.nameservers = ["1.2.3.4"]
         self.assertEqual(resolver.nameservers, ["1.2.3.4"])
 
-    def test_set_namservers_to_empty_list(self):
+    def test_set_nameservers_to_empty_list(self):
         resolver = dns.resolver.Resolver(configure=False)
         resolver.nameservers = []
         self.assertEqual(resolver.nameservers, [])
