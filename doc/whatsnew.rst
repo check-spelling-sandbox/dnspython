@@ -120,7 +120,7 @@ TBD
 * Dnspython now explicitly canonicalizes IPv4 and IPv6 addresses.
   Previously it was possible for non-canonical IPv6 forms to be stored
   in a AAAA address, which would work correctly but possibly cause
-  problmes if the address were used as a key in a dictionary.
+  problems if the address were used as a key in a dictionary.
 
 * The number of messages in a section can be retrieved with
   section_count().
