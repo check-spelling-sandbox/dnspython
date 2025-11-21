@@ -20,7 +20,7 @@ import dns.rrset
 def main():
     """Also prints all inputs and intermediate values"""
     parser = argparse.ArgumentParser(
-        description="Send DNS NOTIFY message via UDP, optionally with synthetized SOA RR "
+        description="Send DNS NOTIFY message via UDP, optionally with synthesized SOA RR "
         "in ANSWER section. No checks. It's not RFC 1996 sect 3.6 compliant sender."
     )
     parser.add_argument("--source", type=ipaddress.ip_address, help="source IP address")
