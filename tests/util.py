@@ -127,7 +127,7 @@ def check_enum_exports(module, eq_callback, only=None):
 
 
 def is_docker() -> bool:
-    # There are a lot of answers to "am I runnning in a container" and none appear
+    # There are a lot of answers to "am I running in a container" and none appear
     # to work reliably, so we're settling for "am I running in docker?"
     try:
         return os.path.isfile("/.dockerenv")
