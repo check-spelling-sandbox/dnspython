@@ -226,7 +226,7 @@ class MandatoryParam(Param):
         while parser.remaining() > 0:
             key = parser.get_uint16()
             if key < last_key:
-                raise dns.exception.FormError("manadatory keys not ascending")
+                raise dns.exception.FormError("mandatory keys not ascending")
             last_key = key
             keys.append(key)
         return cls(keys)
