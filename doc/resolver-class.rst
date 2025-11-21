@@ -27,7 +27,7 @@ The dns.resolver.Resolver and dns.resolver.Answer Classes
 
    .. attribute:: use_search_by_default
 
-      A ``bool``, specifes whether or not ``resolve()`` uses the
+      A ``bool``, specifies whether or not ``resolve()`` uses the
       search list configured in the system's resolver configuration
       when the ``search`` parameter to ``resolve()`` is ``None``.  The
       default is ``False``.
