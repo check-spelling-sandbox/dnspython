@@ -102,7 +102,7 @@ class Option:
         *otype*, a ``dns.edns.OptionType``, is the option type.
 
         *parser*, a ``dns.wire.Parser``, the parser, which should be
-        restructed to the option length.
+        restricted to the option length.
 
         Returns a ``dns.edns.Option``.
         """
