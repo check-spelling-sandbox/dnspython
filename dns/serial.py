@@ -1,6 +1,6 @@
 # Copyright (C) Dnspython Contributors, see LICENSE for text of ISC license
 
-"""Serial Number Arthimetic from RFC 1982"""
+"""Serial Number Arithmetic from RFC 1982"""
 
 
 class Serial:
