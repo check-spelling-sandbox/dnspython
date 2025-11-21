@@ -396,7 +396,7 @@ async def tcp(
 ) -> dns.message.Message:
     """Return the response obtained after sending a query via TCP.
 
-    *sock*, a ``dns.asyncbacket.StreamSocket``, or ``None``, the
+    *sock*, a ``dns.asyncbackend.StreamSocket``, or ``None``, the
     socket to use for the query.  If ``None``, the default, a socket
     is created.  Note that if a socket is provided
     *where*, *port*, *source*, *source_port*, and *backend* are ignored.
