@@ -19,7 +19,7 @@ import dns.inet
 QUIC_MAX_DATAGRAM = 2048
 MAX_SESSION_TICKETS = 8
 # If we hit the max sessions limit we will delete this many of the oldest connections.
-# The value must be a integer > 0 and <= MAX_SESSION_TICKETS.
+# The value must be an integer > 0 and <= MAX_SESSION_TICKETS.
 SESSIONS_TO_DELETE = MAX_SESSION_TICKETS // 4
 
 
