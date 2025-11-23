@@ -26,7 +26,7 @@ Universal Types
 
    .. attribute:: discovery_optional
 
-   A ``bool``, specifying whether discovery is optional or not.
+   A ``bool``, specifying whether or not discovery is optional.
 
    .. attribute:: relay_type
 
