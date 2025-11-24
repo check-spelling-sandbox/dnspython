@@ -177,7 +177,7 @@ class Rdata:
             object.__setattr__(self, "rdcomment", None)
 
     def covers(self) -> dns.rdatatype.RdataType:
-        """Return the type a Rdata covers.
+        """Return the type covered by the Rdata.
 
         DNS SIG/RRSIG rdatas apply to a specific type; this type is
         returned by the covers() function.  If the rdata type is not
