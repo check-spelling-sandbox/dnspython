@@ -184,7 +184,7 @@ def from_text(text: str) -> RdataType:
 def to_text(value: RdataType) -> str:
     """Convert a DNS rdata type value to text.
 
-    If the value has a known mnemonic, it will be used, otherwise the
+    If the value has a known mnemonic, it will be used; otherwise, the
     DNS generic type syntax will be used.
 
     Raises ``ValueError`` if the rdata type value is not >= 0 and <= 65535.

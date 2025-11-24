@@ -344,7 +344,7 @@ def make_query(
 
 def extract_serial_from_query(query: dns.message.Message) -> int | None:
     """Extract the SOA serial number from query if it is an IXFR and return
-    it, otherwise return None.
+    it; otherwise, return None.
 
     *query* is a dns.message.QueryMessage that is an IXFR or AXFR request.
 

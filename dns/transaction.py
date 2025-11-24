@@ -609,7 +609,7 @@ class Transaction:
     def _end_transaction(self, commit):
         """End the transaction.
 
-        *commit*, a bool.  If ``True``, commit the transaction, otherwise
+        *commit*, a bool.  If ``True``, commit the transaction; otherwise,
         roll it back.
 
         If committing and the commit fails, then roll back and raise an

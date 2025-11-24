@@ -1757,7 +1757,7 @@ def make_resolver_at(
 
     *family*, an ``int``, the address family to use.  This parameter is used if
     *where* is not an address.  The default is ``socket.AF_UNSPEC`` in which case
-    the first address returned by ``resolve_name()`` will be used, otherwise the
+    the first address returned by ``resolve_name()`` will be used; otherwise, the
     first address of the specified family will be used.
 
     *resolver*, a ``dns.resolver.Resolver`` or ``None``, the resolver to use for

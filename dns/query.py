@@ -1292,7 +1292,7 @@ def make_ssl_context(
     If *verify* is ``True``, the default, then certificate verification will occur using
     the standard CA roots.  If *verify* is ``False``, then certificate verification will
     be disabled.  If *verify* is a string which is a valid pathname, then if the
-    pathname is a regular file, the CA roots will be taken from the file, otherwise if
+    pathname is a regular file, the CA roots will be taken from the file; otherwise, if
     the pathname is a directory roots will be taken from the directory.
 
     If *check_hostname* is ``True``, the default, then the hostname of the server must
