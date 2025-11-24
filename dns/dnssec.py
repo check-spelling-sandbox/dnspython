@@ -503,7 +503,7 @@ def _sign(
     *inception*, a ``datetime``, ``str``, ``int``, ``float`` or ``None``, the
     signature inception time.  If ``None``, the current time is used.  If a ``str``, the
     format is "YYYYMMDDHHMMSS" or alternatively the number of seconds since the UNIX
-    epoch in text form; this is the same the RRSIG rdata's text form.
+    epoch in text form; this is the same as RRSIG rdata's text form.
     Values of type `int` or `float` are interpreted as seconds since the UNIX epoch.
 
     *expiration*, a ``datetime``, ``str``, ``int``, ``float`` or ``None``, the signature
@@ -1024,7 +1024,7 @@ def sign_zone(
     *inception*, a ``datetime``, ``str``, ``int``, ``float`` or ``None``, the signature
     inception time.  If ``None``, the current time is used.  If a ``str``, the format is
     "YYYYMMDDHHMMSS" or alternatively the number of seconds since the UNIX epoch in text
-    form; this is the same the RRSIG rdata's text form. Values of type `int` or `float`
+    form; this is the same as RRSIG rdata's text form. Values of type `int` or `float`
     are interpreted as seconds since the UNIX epoch.
 
     *expiration*, a ``datetime``, ``str``, ``int``, ``float`` or ``None``, the signature
