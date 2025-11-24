@@ -1640,7 +1640,7 @@ def xfr(
 
     *lifetime*, a ``float``, the total number of seconds to spend
     doing the transfer.  If ``None``, the default, then there is no
-    limit on the time the transfer may take.
+    time limit for the transfer.
 
     *source*, a ``str`` containing an IPv4 or IPv6 address, specifying
     the source address.  The default is the wildcard address.
@@ -1740,7 +1740,7 @@ def inbound_xfr(
 
     *lifetime*, a ``float``, the total number of seconds to spend
     doing the transfer.  If ``None``, the default, then there is no
-    limit on the time the transfer may take.
+    time limit for the transfer.
 
     *source*, a ``str`` containing an IPv4 or IPv6 address, specifying
     the source address.  The default is the wildcard address.
