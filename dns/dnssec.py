@@ -191,7 +191,7 @@ def make_ds(
     *name*, a ``dns.name.Name`` or ``str``, the owner name of the DS record.
 
     *key*, a ``dns.rdtypes.ANY.DNSKEY.DNSKEY`` or ``dns.rdtypes.ANY.DNSKEY.CDNSKEY``,
-    the key the DS is about.
+    whose hash is covered by the DS record.
 
     *algorithm*, a ``str`` or ``int`` specifying the hash algorithm.
     The currently supported hashes are "SHA1", "SHA256", and "SHA384". Case
@@ -266,7 +266,7 @@ def make_cds(
     *name*, a ``dns.name.Name`` or ``str``, the owner name of the DS record.
 
     *key*, a ``dns.rdtypes.ANY.DNSKEY.DNSKEY`` or ``dns.rdtypes.ANY.DNSKEY.CDNSKEY``,
-    the key the DS is about.
+    whose hash is covered by the DS record.
 
     *algorithm*, a ``str`` or ``int`` specifying the hash algorithm.
     The currently supported hashes are "SHA1", "SHA256", and "SHA384". Case
